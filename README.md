@@ -24,6 +24,7 @@
 
 ![1](https://github.com/user-attachments/assets/fdfc750e-78dd-4f71-9fa1-5ceb8e272ad2)
 
+>>> При поготовке к запуску не забываем поправить ip созданных с помощью terraform машин на актуальные в файлах playbook/group_vars/vector/vars.yml и playbook/inventory/prod.yml!!!!!! 
 
 5. Запускаю ansible-lint site.yml ... и сразу получаем квест по исправлению ошибок в использовании старых наименований модулей, отсутствии прав на скачиваемые или создаваемые файлы.
 
